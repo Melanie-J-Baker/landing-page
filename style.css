@@ -6,13 +6,16 @@ body {
 .header {
     display: flex;
     background-color: #1F2937;
-    color: white;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header-links {
     display: flex;
-    margin-left: auto;
-    
+    margin-left: auto;   
 }
 
 a {
@@ -61,6 +64,12 @@ a {
     gap: 60px;
 }
 
+.second-top {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color:#1F2937;
+}
+
 .second-bottom {
     display: flex;
 }
@@ -78,4 +87,26 @@ a {
 
 .third {
     background-color: #E5E7EB;
+}
+
+.third-top {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.fourth-box {
+    background-color: #3882F6;
+}
+
+button {
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
 }

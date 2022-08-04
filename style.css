@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+}

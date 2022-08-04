@@ -31,3 +31,23 @@ body {
     gap: 20px;
 }
 
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-bottom {
+    display: flex;
+}
+
+.second-image {
+    width: 200px;
+    height: 200px;
+    border: solid;
+}
+
+.image.box {
+    display: flex;
+    flex-direction: column; 
+}

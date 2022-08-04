@@ -11,3 +11,23 @@ body {
     display: flex;
     margin-left: auto;
 }
+
+.first {
+    display: flex;
+    padding: 80px;
+    gap: 80px;
+    justify-content: center;
+}
+
+.first-image {
+    width: 400px;
+    height: auto;
+}
+
+.first-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
